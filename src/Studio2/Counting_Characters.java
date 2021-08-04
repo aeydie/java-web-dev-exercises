@@ -22,11 +22,7 @@ public class Counting_Characters {
                 charCounts.put(letter, 1);
             }
         }
-        for {char alphabet: allowableChar) {
-        if (charInString != allowableChar) {
 
-        }
-        }
         for (Map.Entry<Character, Integer> printChar : charCounts.entrySet()) {
             System.out.println(printChar.getKey() + ":" + printChar.getValue());
         }
