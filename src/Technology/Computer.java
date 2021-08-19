@@ -32,13 +32,14 @@ public class Computer extends AbstractEntity{
 
 
 
-    public void addRam(int n) {
+    public double addRam(int n) {
         this.ram = this.ram + n;
+        return ram;
     }
 
     public String keyboardTrue() {
         if (hasKeyboard) {
-            return "Thank goodness you have a kayboard!";
+            return "Thank goodness you have a keyboard!";
         } else {
             return "Are you sure you just want a touchscreen?";
         }
