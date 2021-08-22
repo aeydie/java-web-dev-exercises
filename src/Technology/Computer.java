@@ -34,7 +34,7 @@ public class Computer extends AbstractEntity{
 
     public double addRam(int n) {
         this.ram = this.ram + n;
-        return ram;
+        return ram; 
     }
 
     public String keyboardTrue() {
