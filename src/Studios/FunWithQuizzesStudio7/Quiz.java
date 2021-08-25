@@ -27,7 +27,7 @@ public class Quiz{
             String answer = userinput.nextLine();
           question.checkAnswer(answer);
             if(question.checkAnswer(answer)) {
-                points ++;
+                points++;
             }
         }
         double finalScore = points / questions.size() * 100;
